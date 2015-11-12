@@ -5,7 +5,7 @@
 AutoForm.hooks({
   EditContactForm: {
     /**
-     * After successful form submission, go to the ListContact page.
+     * After successful form submission, go to the ListStuff page.
      * @param formType The form.
      * @param result The result of form submission.
      */

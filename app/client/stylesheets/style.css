@@ -1,27 +1,9 @@
 body {
-  font-family: 'Open Sans', 'serif';
-  color: #19223E;
+  font-family: 'Open Sans',sans-serif;
 }
-.header-image{
-  background-image: url("/images/bg-header-index.jpg");
+
+.headd{
+  background-image: url("/images/header.jpg");
   background-size: cover;
-  height: 180px;
-}
-.navbar{
-  border-radius: 0px;
-}
-.navbar-inverse{
-  background-color: #19223E;
-}
-.navbar-inverse .navbar-brand{
-  color: #2ED5ED;
-}
-.text-muted{
-  color: #19223E;
-}
-a{
-  color: #2ED5ED;
-}
-.legend{
-  color: #19223E;
+  height: 200px;
 }

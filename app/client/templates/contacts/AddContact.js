@@ -1,11 +1,11 @@
 /**
- * After successful addition of a new Contact document, go to List page.
+ * After successful addition of a new Stuff document, go to List page.
  * See: https://github.com/aldeed/meteor-autoform#callbackshooks
  */
 AutoForm.hooks({
   AddContactForm: {
     /**
-     * After successful form submission, go to the ListContact page.
+     * After successful form submission, go to the ListStuff page.
      * @param formType The form.
      * @param result The result of form submission.
      */

@@ -23,7 +23,7 @@ Router.route('/add', {
 });
 
 
-Router.route('/Contact/:_id', {
+Router.route('/contact/:_id', {
   name: 'EditContact',
   data: function() { return Contact.findOne(this.params._id); }
 });

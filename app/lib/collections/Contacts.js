@@ -20,6 +20,10 @@ Meteor.methods({
   editContact: function(doc, docID) {
     check(doc, Contact.simpleSchema());
     Contact.update({_id: docID}, doc);
+  },
+
+  deleteDoc:function(docID){
+    Contact.remove(docID);
   }
 });
 
@@ -48,7 +52,7 @@ Contact.attachSchema(new SimpleSchema({
     }
   },
   last: {
-    label: "Last",
+    label: "last",
     type: String,
     optional: false,
     max: 20,
